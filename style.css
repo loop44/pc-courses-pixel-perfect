@@ -349,3 +349,39 @@ li {
   max-width: 22.5rem;
   opacity: 0.8;
 }
+
+/* Partners */
+
+.partners {
+  padding-top: 8.188rem;
+  padding-bottom: 6.25rem;
+}
+
+.partners__title-block {
+  display: flex;
+  gap: 2.375rem;
+  margin-bottom: 5.438rem;
+}
+
+.partners__img {
+  position: relative;
+  top: 0.875rem;
+  left: -0.938rem;
+  transform: rotate(-135deg);
+}
+
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(auto, auto));
+  grid-gap: 1px;
+  background-color: #717171;
+}
+
+.partners__item {
+  padding: 1.625rem 3.938rem;
+  background-color: #000;
+}
+
+.partners__item-img {
+  margin: 0 auto;
+}
