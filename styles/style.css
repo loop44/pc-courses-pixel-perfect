@@ -62,3 +62,295 @@ li {
   font-size: 3rem;
   line-height: 4.2rem;
 }
+
+.mob-menu {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+  display: none;
+}
+.mob-menu span {
+  width: 30px;
+  height: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  transition: all 0.5s;
+}
+.mob-menu span:nth-of-type(2) {
+  top: calc(50% - 10px);
+}
+.mob-menu span:nth-of-type(3) {
+  top: calc(50% + 10px);
+}
+
+.mobile-menu-links {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  background-color: #000;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  gap: 50px;
+}
+
+.mobile-menu-links .nav__list-mobile {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.close-mobile {
+  position: absolute;
+  right: 60px;
+}
+
+.close-mobile span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: -10px;
+}
+.close-mobile span:nth-of-type(2) {
+  transform: rotate(-45deg);
+}
+
+/* Adaptive */
+
+@media (max-width: 84.375em) {
+  .nav__list {
+    padding-left: 0;
+  }
+
+  .stat__inner {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partners__list {
+    grid-template-columns: repeat(2, minmax(auto, auto));
+  }
+  .partners__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .teachers__list {
+    justify-content: center;
+    padding: 0;
+    gap: 7rem;
+  }
+}
+
+@media (max-width: 66.5em) {
+  .title {
+    font-size: 1.5rem;
+  }
+  .nav__list {
+    gap: 1rem;
+  }
+  .intro {
+    background-position: center;
+  }
+  .about__img {
+    height: 25rem;
+    width: auto;
+  }
+  .about__wrapper {
+    align-items: center;
+    gap: 1.875rem;
+  }
+  .about__block {
+    padding-top: 0;
+  }
+  .about__title {
+    margin-bottom: 1.25rem;
+  }
+  .about {
+    padding-top: 3.125rem;
+    padding-bottom: 1.563rem;
+  }
+
+  .fast-start {
+    padding-top: 3.125rem;
+    padding-bottom: 1.563rem;
+  }
+  .fast-start__info {
+    margin-bottom: 1.25rem;
+  }
+  .fast-start__title-block {
+    margin-bottom: 0.625rem;
+  }
+  .diagram__item-title {
+    font-size: 1.125rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .benefits {
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+  }
+  .benefits__title {
+    margin-bottom: 1.25rem;
+  }
+  .benefits__list {
+    gap: 0.625rem;
+  }
+
+  .partners {
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+  }
+
+  .partners__title-block {
+    margin-bottom: 0.625rem;
+  }
+
+  .partners__item {
+    padding: 0.625rem;
+  }
+
+  .program {
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+  }
+
+  .program__text {
+    margin-bottom: 0.938rem;
+  }
+
+  .program__schema {
+    gap: 1.25rem;
+  }
+
+  .program__schema-item::after,
+  .program__schema-item::before {
+    display: none;
+  }
+
+  .teachers {
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+  }
+  .teachers__title {
+    margin-bottom: 0.938rem;
+  }
+  .teachers__list {
+    flex-wrap: wrap;
+    gap: 3.5rem;
+  }
+}
+
+@media (max-width: 54.375em) {
+  .nav {
+    display: none;
+  }
+  .header__button {
+    display: none;
+  }
+  .mob-menu {
+    display: block;
+  }
+  .mob-menu.active .mobile-menu-links {
+    display: flex;
+  }
+  .mob-menu.active .header__button {
+    display: inline-block;
+    width: auto;
+    font-size: 1.25rem;
+  }
+
+  .intro__title {
+    font-size: 1.625rem;
+    line-height: 2rem;
+  }
+  .intro__block {
+    padding-top: 3.75rem;
+  }
+  .intro__time {
+    flex-wrap: wrap;
+    gap: 0.625rem;
+    padding-bottom: 3.75rem;
+  }
+  .intro__time-item {
+    padding: 0.625rem 0.938rem;
+  }
+  .intro__time-item-value {
+    font-size: 1.125rem;
+  }
+  .intro__time-item-title {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 48.75em) {
+  .stat__inner {
+    gap: 1.875rem;
+  }
+
+  .money-progress {
+    display: none;
+  }
+
+  .stat__text--money {
+    justify-content: center;
+  }
+
+  .about__wrapper {
+    flex-direction: column;
+  }
+
+  .diagram__item-text {
+    font-size: 0.625rem;
+    line-height: 0.75rem;
+  }
+
+  .benefits__item-title {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .benefits__item-text {
+    font-size: 1rem;
+    line-height: 1.25rem;
+  }
+
+  .partners__list {
+    grid-template-columns: repeat(1, minmax(auto, auto));
+  }
+  .partners__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 37.5em) {
+  .benefits__list {
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .footer__input-block {
+    width: 20rem;
+  }
+  .footer__input {
+    width: 13rem;
+  }
+  .footer__btn {
+    padding: 0.625rem 1rem;
+  }
+}

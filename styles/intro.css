@@ -44,7 +44,7 @@
   padding-bottom: 13.625rem;
 }
 
-.intro__time__item {
+.intro__time-item {
   padding: 1.25rem 1.875rem;
   display: flex;
   flex-direction: column;
@@ -52,13 +52,13 @@
   background-color: #121212;
 }
 
-.intro__time__item-value {
+.intro__time-item-value {
   font-weight: 700;
   font-size: 2.25rem;
   line-height: 3.125rem;
 }
 
-.intro__time__item-title {
+.intro__time-item-title {
   line-height: 1.4rem;
   color: #717171;
 }

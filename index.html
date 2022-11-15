@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Задание 1</title>
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
@@ -23,6 +23,28 @@
             <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
           </ul>
         </nav>
+        <!-- Mobile menu burger -->
+        <div id="mobile-menu" class="mob-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+
+          <div class="mobile-menu-links">
+            <div class="close-mobile" id="close-mobile">
+              <span></span>
+              <span></span>
+            </div>
+            <ul class="nav__list-mobile">
+              <li><a href="#">Главная</a></li>
+              <li><a href="#">Курсы</a></li>
+              <li><a href="#">Расписание</a></li>
+              <li><a href="#">Преподаватели</a></li>
+              <li><a href="#">Рассылка</a></li>
+              <li><a href="#">Контакты</a></li>
+            </ul>
+            <a class="button header__button" href="">Зайти в кабинет</a>
+          </div>
+        </div>
         <a class="button header__button" href="">Зайти в кабинет</a>
       </header>
       <div class="intro__block">
@@ -32,21 +54,21 @@
             по компьютерной сборке
           </h1>
           <ul class="intro__time">
-            <li class="intro__time__item">
-              <span class="intro__time__item-value">18</span
-              ><span class="intro__time__item-title">Дней</span>
+            <li class="intro__time-item">
+              <span class="intro__time-item-value">18</span
+              ><span class="intro__time-item-title">Дней</span>
             </li>
-            <li class="intro__time__item">
-              <span class="intro__time__item-value">18</span
-              ><span class="intro__time__item-title">Часов</span>
+            <li class="intro__time-item">
+              <span class="intro__time-item-value">18</span
+              ><span class="intro__time-item-title">Часов</span>
             </li>
-            <li class="intro__time__item">
-              <span class="intro__time__item-value">18</span
-              ><span class="intro__time__item-title">Минут</span>
+            <li class="intro__time-item">
+              <span class="intro__time-item-value">18</span
+              ><span class="intro__time-item-title">Минут</span>
             </li>
-            <li class="intro__time__item">
-              <span class="intro__time__item-value">18</span
-              ><span class="intro__time__item-title">Секунд</span>
+            <li class="intro__time-item">
+              <span class="intro__time-item-value">18</span
+              ><span class="intro__time-item-title">Секунд</span>
             </li>
           </ul>
         </div>
@@ -325,5 +347,6 @@
       </ul>
       <p class="footer__copyright">Templates #18. More on Figma.info</p>
     </footer>
+    <script type="module" src="main.js"></script>
   </body>
 </html>
