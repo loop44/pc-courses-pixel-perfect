@@ -32,9 +32,9 @@ li {
 /* --------------- */
 
 .container {
-  max-width: 46.5rem;
+  max-width: 83.75rem;
+  padding: 0 1.25rem;
   margin: 0 auto;
-  padding: 3.125rem 2.5rem;
 }
 
 .logo img {
@@ -46,6 +46,12 @@ li {
   display: inline-block;
   padding: 0.625rem 1.875rem;
   border-radius: 3.125rem;
+}
+
+.intro {
+  background-image: url(/public/assets/intro-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header {
@@ -67,4 +73,42 @@ li {
 
 .header__button {
   background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+
+.intro__block {
+  padding-top: 11.563rem;
+}
+
+.intro__title {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 5.625rem;
+  color: #ffffff;
+  margin-bottom: 3.25rem;
+}
+
+.intro__time {
+  display: flex;
+  gap: 1.875rem;
+  align-items: center;
+  padding-bottom: 13.625rem;
+}
+
+.intro__time__item {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+}
+
+.intro__time__item-value {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.125rem;
+}
+
+.intro__time__item-title {
+  line-height: 1.4rem;
+  opacity: 0.4;
 }
