@@ -48,6 +48,12 @@ li {
   border-radius: 3.125rem;
 }
 
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 67.2px;
+}
+
 /* Intro */
 
 .intro {
@@ -189,4 +195,34 @@ li {
   display: flex;
   justify-content: space-between;
   color: #717171;
+}
+
+/* About section */
+
+.about {
+  padding: 12.5rem 0px;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 8.375rem;
+}
+
+.about__img {
+  width: 32.875rem;
+  height: 33.875rem;
+}
+
+.about__block {
+  padding-top: 4.375rem;
+}
+
+.about__title {
+  margin-bottom: 2.813rem;
+}
+
+.about__text {
+  padding-left: 0.438rem;
+  line-height: 1.625rem;
 }
