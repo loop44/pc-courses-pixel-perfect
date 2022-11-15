@@ -1,0 +1,75 @@
+.fast-start {
+  padding-top: 7.875rem;
+  padding-bottom: 6.25rem;
+}
+
+.fast-start__title-block {
+  display: flex;
+  gap: 1.375rem;
+  padding-left: 1.063rem;
+  margin-bottom: 3.125rem;
+}
+
+.fast-start__img {
+  width: 5.644rem;
+  height: 2.759rem;
+  transform: rotate(45deg);
+}
+
+.fast-start__title {
+  padding-top: 0.375rem;
+}
+
+.fast-start__info {
+  max-width: 25.625rem;
+  margin-bottom: 5rem;
+  padding-left: 0.438rem;
+  line-height: 1.625rem;
+  opacity: 0.5;
+}
+
+.diagram {
+  width: 100%;
+  display: flex;
+}
+
+.diagram__item {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.diagram__item-title {
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 3.125rem;
+  margin-bottom: 1.063rem;
+}
+
+.diagram__item:nth-of-type(1) .diagram__item-value {
+  height: 5rem;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.diagram__item:nth-of-type(2) .diagram__item-value {
+  height: 3.75rem;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.diagram__item:nth-of-type(3) .diagram__item-value {
+  height: 1.875rem;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+}
+.diagram__item:nth-of-type(4) .diagram__item-value {
+  height: 0.625rem;
+  background: linear-gradient(94.26deg, #c89afc 9.51%, #7c6afa 90.23%);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.diagram__item-text {
+  padding-top: 2.313rem;
+  padding-right: 1.25rem;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  opacity: 0.5;
+}

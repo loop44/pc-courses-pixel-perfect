@@ -1,0 +1,55 @@
+.teachers {
+  padding-top: 8.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.teachers__title-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.375rem;
+}
+
+.teachers__img {
+  position: relative;
+  top: -0.938rem;
+}
+
+.teachers__title {
+  margin-bottom: 7.063rem;
+}
+
+.teachers__list {
+  padding-left: 6.438rem;
+  display: flex;
+  align-items: center;
+  gap: 14rem;
+}
+
+.teachers__item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.teachers__item-img {
+  width: 11.875rem;
+  height: 11.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.teachers__item-name {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  margin-bottom: 0.938rem;
+}
+
+.teachers__role {
+  line-height: 1.625rem;
+  opacity: 0.8;
+  margin-bottom: 1.875rem;
+}
+
+.teachers__item-btn {
+  border: 1px solid #ffffff;
+}

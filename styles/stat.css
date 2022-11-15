@@ -1,0 +1,73 @@
+.stat {
+  padding: 2rem 0;
+  background-color: #121212;
+}
+
+.stat__button {
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+  font-weight: 700;
+}
+
+.stat__inner {
+  display: flex;
+  align-items: center;
+  gap: 5.063rem;
+}
+
+.stat__pupils {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.stat__text {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.938rem;
+  color: #717171;
+}
+
+.stat__value {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.stat__money {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 714px;
+}
+
+.stat__text--money {
+  justify-content: flex-start;
+}
+
+.money-progress__block {
+  position: relative;
+  padding-bottom: 0.563rem;
+}
+
+.money-progress__line {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 6px;
+  background-color: #fff;
+}
+
+.money-progress__value {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 440px;
+  height: 6px;
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+}
+
+.money-progress__values {
+  display: flex;
+  justify-content: space-between;
+  color: #717171;
+}

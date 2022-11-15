@@ -1,0 +1,42 @@
+.benefits {
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+}
+
+.benefits__title {
+  text-align: center;
+  margin-bottom: 7.5rem;
+}
+
+.benefits__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.875rem;
+}
+
+.benefits__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits__item-img {
+  width: 6.25rem;
+  height: 6.25rem;
+  margin-bottom: 3.75rem;
+}
+
+.benefits__item-title {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.125rem;
+  margin-bottom: 1.813rem;
+}
+
+.benefits__item-text {
+  line-height: 1.625rem;
+  text-align: center;
+  max-width: 22.5rem;
+  opacity: 0.8;
+}
