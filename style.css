@@ -497,7 +497,7 @@ li {
 
 .teachers__img {
   position: relative;
-  top: -1.625rem;
+  top: -0.938rem;
 }
 
 .teachers__title {
@@ -538,4 +538,72 @@ li {
 
 .teachers__item-btn {
   border: 1px solid #ffffff;
+}
+
+/* Footer */
+
+.footer {
+  padding-top: 6.125rem;
+  padding-bottom: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__title {
+  margin-bottom: 1.875rem;
+}
+
+.footer__text {
+  max-width: 25.625rem;
+  text-align: center;
+  line-height: 1.625rem;
+  opacity: 0.5;
+  margin-bottom: 3.75rem;
+}
+
+.footer__input-block {
+  position: relative;
+  width: 30.75rem;
+  margin-bottom: 5.188rem;
+}
+
+.footer__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 22.063rem;
+  background-color: #404040;
+  border-radius: 3.125rem 0 0 3.125rem;
+  outline: none;
+  border: none;
+  padding: 0.625rem 1.75rem;
+  color: #fff;
+}
+
+.footer__input::placeholder {
+  color: #d9d9d9;
+}
+
+.footer__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  color: #fff;
+  outline: none;
+  background: linear-gradient(94.78deg, #df5950 11.19%, #451046 93.72%);
+  border-radius: 3.125rem;
+  padding: 0.625rem 1.938rem;
+}
+
+.footer__socials-list {
+  display: flex;
+  gap: 1.875rem;
+  margin-bottom: 2.688rem;
+}
+
+.footer__copyright {
+  line-height: 1.625rem;
+  opacity: 0.8;
 }
