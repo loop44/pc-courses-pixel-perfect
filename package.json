@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://loop44.github.io/pc-courses-pixel-perfect",
+  "homepage": "https://loop44.github.io/pc-courses-pixel-perfect/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
